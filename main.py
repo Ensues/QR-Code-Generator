@@ -36,7 +36,6 @@ def createQR(*args):
         except FileNotFoundError:
             messagebox.showwarning("Warning", 'Enter Data in Entry First')
 
-
 def saveQR(*args):
     data = text_entry.get()
     if data:
